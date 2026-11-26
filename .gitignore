@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+preview/
+upstream/
+
+# Never commit logins, tokens or personal settings
+.credentials.json
+*.credentials*
+settings.json
+.env
+.env.*
+*.pem
+*.key
+.claude/
+.venv/
+venv/
